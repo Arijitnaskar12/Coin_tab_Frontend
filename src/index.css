@@ -1,0 +1,50 @@
+.heading{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 24px;
+  font-family:sans-serif;
+  font-weight: 700;
+}
+.userBtn{
+  display:flex;
+  justify-content: center;
+  margin:0 auto;
+}
+.comnBtn{
+  min-width:8rem;
+  background-color: black;
+  color:white;
+  font-size:20px;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  padding:0.2rem 0.5rem;
+  margin:0.5rem;
+}
+.usersCard{
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+.userInfo{
+  width:20rem;  
+  border:2px solid black;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+.btnC{
+  width:inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .postInfo{
+  width:100%;
+  padding:0.5rem;
+  border:2px solid black;
+ }
